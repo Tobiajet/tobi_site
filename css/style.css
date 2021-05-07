@@ -1,0 +1,160 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center; /**centers everything if no width**/
+    font-family: Verdana, sans-serif;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    color: #f6dcbf;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #f6dcbf;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.top-container {
+    background-color: #f7a440;
+    position: relative;
+    padding-top: 100px;
+} 
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+p {
+    line-height: 2;
+}
+
+.middle-container {
+    margin: 100px 0 ;
+}
+
+h3, a {
+    color: #e1701a;
+}
+
+
+span {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.comp-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+
+.proj-img {
+    width: 20%;
+}
+
+.proj-img:hover{
+    transform: scale(1.1);
+}
+
+.list {
+    display: inline-block;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: Verdana sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 20px;
+    background-color: #E1701A;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: -1px 1px 20px #000000;
+    border: solid #E1701A 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    background: #F7A440;
+    border: solid #4372B5 0;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+ }
+
+ .bottom-container {
+     background-color: #F7A440;
+     padding: 50px 0 20px;
+ }
+
+ .footer-link{
+    font-family: Verdana sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+    
+.footer-link:hover{
+    color: #EAF6F6;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
